@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "1-1",
+          "name": "Widget 1",
+          "content": "Sample Widget 1"
+        },
+        {
+          "id": "1-2",
+          "name": "Widget 2",
+          "content": "Sample Widget 2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "CSWP Executive Dashboard",
+      "widgets": [
+        {
+          "id": "2-1",
+          "name": "Widget 3",
+          "content": "Sample Widget 3"
+        }
+      ]
+    }
+  ]
+}
