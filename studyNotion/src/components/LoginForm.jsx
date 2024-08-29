@@ -49,7 +49,7 @@ const LoginForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder="Enter email address"
                 name="email"
-                className='bg-gray-900 rounded-[0.5rem] text-white w-full p-[12px]'
+                className='bg-gray-900 rounded-[0.5rem] text-white w-full p-[12px] text-white'
             />
         </label>
 
@@ -64,7 +64,7 @@ const LoginForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder="Enter Password"
                 name="password"
-                className='bg-gray-900 rounded-[0.5rem] text-white w-full p-[12px]'
+                className='bg-gray-900 rounded-[0.5rem] text-white w-full p-[12px] text-white'
             />
 
             <span 

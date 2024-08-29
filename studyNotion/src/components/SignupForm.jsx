@@ -86,7 +86,7 @@ const SignupForm = ({setIsLoggedIn}) => {
             <div className='flex w-full flex-col md:flex-row gap-4 mt-[20px]'>
                     <label className='w-full'>
                         <p className='text-[0.875rem] text-white mb-1 leading-[1.375rem]'>
-                            First Name<sup className='text-pink-200'>*</sup>
+                            First Name<sup className='text-white'>*</sup>
                         </p>
                         <input
                             required
@@ -95,7 +95,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter First Name"
                             value={formData.firstName}
-                            className='bg-slate-900  rounded-[0.5rem]  w-full p-[12px] '
+                            className='bg-slate-900  rounded-[0.5rem]  w-full p-[12px] text-white'
                         />
                     </label>
 
@@ -108,7 +108,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter Last Name"
                             value={formData.lastName}
-                            className='bg-slate-900 rounded-[0.5rem]  w-full p-[12px]'
+                            className='bg-slate-900 rounded-[0.5rem]  w-full p-[12px] text-white'
                         />
                     </label>
             </div>
@@ -123,7 +123,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         onChange={changeHandler}
                         placeholder="Enter Email Address "
                         value={formData.email}
-                        className='bg-slate-900  rounded-[0.5rem]  w-full p-[12px]'
+                        className='bg-slate-900  rounded-[0.5rem]  w-full p-[12px] text-white'
                     />
             </label>
             </div>
@@ -140,7 +140,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         onChange={changeHandler}
                         placeholder="Enter Password"
                         value={formData.password}
-                        className='bg-slate-900 rounded-[0.5rem] w-full p-[12px]'
+                        className='bg-slate-900 rounded-[0.5rem] w-full p-[12px] text-white'
                     />
                     <span
                      className='absolute right-3 top-[38px] cursor-pointer' 
@@ -162,7 +162,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         onChange={changeHandler}
                         placeholder="Confirm Password"
                         value={formData.confirmPassword}
-                        className='bg-slate-900  rounded-[0.5rem]  w-full p-[12px]'
+                        className='bg-slate-900  rounded-[0.5rem]  w-full p-[12px] text-white'
                     />
                     <span 
                      className='absolute right-3 top-[38px] cursor-pointer'
