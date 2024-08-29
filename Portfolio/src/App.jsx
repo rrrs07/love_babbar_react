@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import './App.css'
+import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Skills from './components/skills/Skills'
 import Resume from './components/resume/Resume'
 import Project from './components/projects/Project'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 
 
@@ -15,10 +18,13 @@ function App() {
   return (
     <div>
       
+      <Header />
       <Home />
       <Skills />
       <Project />
-      {/* <Resume /> */}
+      <Resume />
+      <Contact />
+      <Footer />
     </div>
   )
 }

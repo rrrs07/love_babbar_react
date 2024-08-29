@@ -1,6 +1,7 @@
 .resume {
     background-image: var(--second-gradient);
-    padding-top: 45px;
+    
+    margin-bottom: -80px;
   }
   
   .resume__container {
@@ -16,7 +17,7 @@
     padding-bottom: 30px;
   }
   
-  .resume__heading,
+  
   .resume__item {
     border-bottom: 2px solid var(--border-color);
   }
