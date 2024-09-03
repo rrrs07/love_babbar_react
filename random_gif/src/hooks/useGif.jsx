@@ -13,7 +13,7 @@ const useGif = () => {
     const [loading, setLoading] = useState('false');
 
   
-    async function fetchData(tag) {
+     async function fetchData(tag) {
       setLoading(true);
       
       const {data} = await axios.get(tag ? `${url}&tag=${tag}`  : url);
@@ -21,7 +21,7 @@ const useGif = () => {
       setGif(imageSource);
       setLoading(false);
     }
-    
+
     useEffect( () => {
       fetchData('car');
     },[] )
